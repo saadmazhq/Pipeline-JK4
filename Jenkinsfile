@@ -6,7 +6,7 @@ pipeline {
         booleanParam(name: 'PUSH_IMAGE', defaultValue: true, description: 'Push image to Docker Hub?')
     }
     environment {
-        IMAGE_NAME = "devopssteps/my-app-15"
+        IMAGE_NAME = "Docker Project Pipepline"
     }
 
     stages {
